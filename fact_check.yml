@@ -6,4 +6,6 @@
   tasks:
   - name: Print facts
     command: 'echo Hostname is {{ ansible_hostname }}'
+    register: result
+  - debug: var=result
     
