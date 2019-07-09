@@ -5,5 +5,5 @@
   
   tasks:
   - name: Print facts
-    ansible_hostname
+    ansible_hostname:
     
