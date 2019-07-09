@@ -5,5 +5,5 @@
   
   tasks:
   - name: Print facts
-    ansible_hostname:
+    command: 'echo Hostname is {{ ansible_hostname }}'
     
