@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: yes
+  connection: local
+  
+  tasks:
+  - name: Print facts
+    ansible_hostname
+    
